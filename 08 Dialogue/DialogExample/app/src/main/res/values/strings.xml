@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">"DatePickerDialogExample "</string>
+    <string name="action_settings">Settings</string>
+    <string name="setdate">显示日期</string>
+
+</resources>
