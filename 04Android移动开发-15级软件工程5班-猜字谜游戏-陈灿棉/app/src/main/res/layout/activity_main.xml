@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:background="@drawable/bg4"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp">
+    <!--background-->
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:background="@drawable/cool"
+        android:layout_width="match_parent"
+        android:layout_height="290dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="360dp">
+        <!--开始游戏-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp">
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="10dp">
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/title1"
+            android:src="@drawable/title1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        </LinearLayout>
+        <!--游戏规则-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp">
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="10dp">
+            </LinearLayout>
+            <ImageButton
+                android:id="@+id/rule"
+                android:src="@drawable/title2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+        </LinearLayout>
+        <!--更多游戏-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp">
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="10dp">
+            </LinearLayout>
+            <ImageButton
+                android:id="@+id/more"
+                android:src="@drawable/title3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+        </LinearLayout>
+        <!--退出游戏-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp">
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="10dp">
+            </LinearLayout>
+            <ImageButton
+                android:id="@+id/exit"
+                android:src="@drawable/title5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

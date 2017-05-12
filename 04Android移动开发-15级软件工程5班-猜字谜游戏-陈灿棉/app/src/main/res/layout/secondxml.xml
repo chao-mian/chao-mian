@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:paddingTop="5dp"
+    android:background="@drawable/sure1"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <ImageButton
+        android:src="@drawable/back2"
+        android:id="@+id/back1"
+        android:layout_marginLeft="15dp"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="8dp"/>
+
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_height="50dp">
+    </LinearLayout>
+
+    <EditText
+        android:background="@null"
+        android:id="@+id/txt1"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+        android:editable="false"
+        />
+    <LinearLayout
+        android:layout_width="20dp"
+        android:layout_height="50dp">
+    </LinearLayout>
+
+        <EditText
+            android:background="@null"
+            android:text="20"
+            android:id="@+id/txt2"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:editable="false"
+            />
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:background="@drawable/money"
+            android:layout_width="40dp"
+            android:layout_height="42dp">
+    </LinearLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/mybackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:orientation="vertical"
+                android:layout_width="98dp"
+                android:layout_height="170dp">
+                <LinearLayout
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/xml_4"
+                    android:layout_width="80dp"
+                    android:layout_height="45dp" >
+                    <Chronometer
+                        android:layout_width="80dp"
+                        android:layout_height="45dp"
+                        android:format="%s"
+                        android:gravity="center"
+                        android:id="@+id/timer"/>
+                </LinearLayout>
+
+                <ImageButton
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/remind"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/xml_1"
+                    android:layout_width="90dp"
+                    android:layout_height="45dp" />
+                <ImageButton
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/arrive"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/xml_3"
+                    android:layout_width="90dp"
+                    android:layout_height="45dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="285dp"
+                    android:layout_height="170dp">
+                    <LinearLayout
+                        android:layout_width="285dp"
+                        android:layout_height="70dp">
+                    </LinearLayout>
+
+                    <EditText
+                        android:background="@null"
+                        android:paddingTop="20dp"
+                        android:id="@+id/riddle"
+                        android:textSize="25dp"
+                        android:textColor="#fff"
+                        android:gravity="center"
+                        android:layout_width="285dp"
+                        android:layout_height="55dp"
+                        android:editable="false"
+                        android:paddingBottom="10dp"
+                        />
+
+                    <EditText
+                        android:background="@null"
+                        android:textColor="#fff"
+                        android:id="@+id/point"
+                        android:textSize="15dp"
+                        android:gravity="center"
+                        android:layout_width="285dp"
+                        android:layout_height="50dp"
+                        android:editable="false"
+                        />
+                </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="160dp"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="140dp">
+                <LinearLayout
+                    android:background="@drawable/xml_4"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp">
+                    <EditText
+                        android:background="@null"
+                        android:id="@+id/enter"
+                        android:textColor="#fff"
+                        android:textSize="15dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:textColorHint="#fff"
+                        android:hint="请输入答案"
+                        />
+                </LinearLayout>
+                <ImageButton
+                    android:id="@+id/sure"
+                    android:src="@drawable/sure"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
